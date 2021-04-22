@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@700&family=Ubuntu&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+    
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 40%;
+    border: 2px solid black;
+    border-radius: 50px;
+    position: relative;
+    right: -70px
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    background-color: grey;
+    /* margin-bottom: 10px; */
+}
+
+.navlist{
+    width: 70%;
+    display: flex;
+    align-items: center; 
+}
+
+.navlist li{
+    list-style: none;
+    padding: 26px 30px;
+    font-size: 17px;
+}
+
+.navlist li a{
+    color: white;
+    text-decoration: none;
+}
+
+.navlist li a:hover{
+    color: black;
+}
+
+.rightNav{
+    width: 30%;
+}
+
+.search{
+    border: 2px solid black ;
+    border-radius: 9px;
+    padding: 5px;
+}
+
+.btn1{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url('../static/city-background.jpg');
+    background-size:cover;
+    background-blend-mode: darken;
+}
+
+  .firstSection{
+    height: 90vh;
+} 
+
+ .box-main{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    padding: 5px 5px ;
+    margin: 0px 5px;
+    height: 105%;
+}
+
+.firstHalf{
+    margin: 200px;
+}
+
+.text-big{
+    font-size: 39px;
+    color: black;
+}  
+
+.text-small{
+    font-size: 17px;
+    color: black;
+    margin: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: antiquewhite;
+}
+
+
+
+.para{
+    height: 50vh;
+}
+
+.text-big2{
+    text-align: center;
+    margin: 22px;
+    font-size: 39px;
+    position: relative;
+    top: 25px;
+}
+
+.text-small2{
+    margin: 18px;
+    padding: 9px 97px;
+    margin: 28px 99px;
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.secondSection{
+    background: antiquewhite;
+    height: 80vh;
+    margin: -20px;
+}
+
+.thumbnail{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thumbnail img{
+    width: 175px;
+    margin: -30px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.ftn{
+    background-color: grey;
+    height: 40px;
+}
+
+.text-footer{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    text-align: center;
+    padding: 10px 5px;
+    font-size: 17px;
+    font-weight:bold ;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px auto;
+    height: 50vh;
+    background: burlywood;
+}
+
+form input{
+    padding: 9px 164px;
+    margin: 5px 10px;
+    border: 2px solid black;
+    border-radius: 9px;
+    background: gainsboro;
+    font-family: system-ui;
+    text-align: center;
+}
+.submit{
+    margin: 10px;
+    padding: 5px 25px;
+    border: 2px solid black;
+    border-radius: 9px;
+    background: antiquewhite;
+}
+
+.color2{
+background-color: darkgrey;
+}
+
+.color4{
+background-color: darkkhaki;
+}
+
+
+.clr3{
+color: darkred;
+}
+
+.clr4{
+color: darkslategrey;
+}
